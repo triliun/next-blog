@@ -26,3 +26,9 @@ content:
         fields:
           - { name: url, label: URL, type: image }
       - { name: body, label: Body, type: rich-text }
+  - label: Home Page
+    name: homepage
+    path: src/index.njk
+    type: file
+    fields:
+      - {name: text, label: Text, type: string}
