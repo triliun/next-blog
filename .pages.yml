@@ -38,4 +38,5 @@ content:
         type: object
         fields:
           - { name: url, label: URL, type: image }
+      - { name: section2, label: section2, type: string }
       - { name: body, label: Body, type: rich-text }
