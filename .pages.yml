@@ -33,3 +33,8 @@ content:
     fields:
       - {name: text, label: Text, type: string}
       - { name: profile, label: Profile, type: image }
+      - name: ogImage
+        label: Image (social sharing)
+        type: object
+        fields:
+          - { name: url, label: URL, type: image }
