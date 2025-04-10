@@ -28,8 +28,8 @@ content:
       - { name: body, label: Body, type: rich-text }
   - label: Home Page
     name: homepage
-    path: _pages
-    type: collection
+    path: src/home.md
+    type: file
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: excerpt, label: Excerpt, type: string }
