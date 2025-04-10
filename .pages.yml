@@ -29,7 +29,7 @@ content:
   - label: Home Page
     name: homepage
     path: src/index.njk
-    type: file
+    type: collection
     fields:
       - {name: text, label: Text, type: string}
       - { name: profile, label: Profile, type: image }
